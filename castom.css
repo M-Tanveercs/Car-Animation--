@@ -11,3 +11,17 @@ body{
     background-repeat: repeat-x;
     animation: animate 10s  linear infinite;
 }
+.car{
+    position: absolute;
+    bottom: -80px;
+    left: 90px;
+ }
+ @keyframes animate
+{
+    from{
+        background-position: 0 0;
+    }
+    to{
+        background-position: 100% 0;
+    }
+}
